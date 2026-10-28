@@ -1,0 +1,52 @@
+{
+  "users": 1844880,
+  "users_trial_timestamp": 22197,
+  "device_rows_nonempty_identifier": 736225,
+  "unique_identifier": 66336,
+  "identifiers_multiple_users": 8888,
+  "users_sharing_identifier": 621375,
+  "trial_users_sharing_identifier": 20478,
+  "multi_user_identifiers_multiple_trial_users": 727,
+  "identifier_max_users": 104880,
+  "identifiers_2_to_10_users": 8231,
+  "identifiers_2_to_10_users_multiple_trials": 321,
+  "metric_names": {
+    "arppu": 81,
+    "arpu": 81,
+    "subscription_churn_monthly": 81,
+    "mrr": 81,
+    "mrr_growth": 81,
+    "new_mrr": 81,
+    "expansion_mrr": 67,
+    "reactivation_mrr": 67,
+    "churned_mrr": 67,
+    "churned_paying_users_monthly": 67,
+    "retention_rate_monthly": 67,
+    "ltv_simple": 67,
+    "user_churn_rate_monthly": 67
+  },
+  "users_with_nontrial_paid_order_and_user_record": 19417,
+  "trial_timestamp_comparison": {
+    "no_prior_trial_timestamp": 6986,
+    "prior_trial_timestamp": 12431,
+    "negative_registration_interval": 4420
+  },
+  "registration_to_first_nontrial_paid_days": {
+    "n": 14997,
+    "median": 3.207450439953704,
+    "p90": 89.52895499166667
+  },
+  "trial_to_first_nontrial_paid_days": {
+    "n": 12431,
+    "median": 3.000446036990741,
+    "p90": 5.110182995173611
+  },
+  "sha256": {
+    "users.csv": "d2f63d83ddf27d4ed45f81105db8bcf08c246afca4c469d404a154ba35b8da1f",
+    "devices.csv": "fb239e3722d374c5e4d4e7f93661a9582e99d94bc669dcd5949ec4860966d82c",
+    "device_code.csv": "4116e9e4a19fd403ec55b1fd05e18cca8986d76e3d1879a8b14414b53a2d288c",
+    "product.csv": "0e578735f1f6ce662b5fb64b7c6b923be9406178013ccabd51f6a2ffab8968d0",
+    "product_trial.csv": "6dd2fbb05227d2f517b68161010ba6562e40d9085e1cc057b6dfd1673b9ac2c7",
+    "metric_values.csv": "dac82eba62ad210b96800e46fb2bcd739148736da015e43569c68407041122e4"
+  }
+}
