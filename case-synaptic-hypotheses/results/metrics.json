@@ -1,0 +1,37 @@
+{
+  "inputs_sha256": {
+    "orders.csv": "86a5e2f03f34ca69d2c60ba98d039a540f7e1620b5e3fe50837bfe0f28694adb",
+    "orders_schema.csv": "07ee3c3084240f3a53ac88a4f04f2230b3c17a23d9d85eeb2ab9c7cfb9aaed1b",
+    "subscribe.csv": "90ea62d2f01d6a750a04c091dbdf51f4e5e357aa6d8281ee8816813302d3c0cd",
+    "subscribe_schema.csv": "873e3c62f370cd61ccdd16908bc022f0348ebd62f03fb4b06f18a2518f37cb61"
+  },
+  "orders": 136006,
+  "distinct_order_users": 41240,
+  "created_min": "2025-04-17 12:23:38.983054",
+  "created_max": "2026-09-29 11:42:30.500979",
+  "status": {
+    "paid": 69942,
+    "failed": 53929,
+    "pending": 12135
+  },
+  "trial_status": {
+    "f_paid": 47744,
+    "t_paid": 22198,
+    "f_failed": 37856,
+    "t_failed": 16073,
+    "f_pending": 11486,
+    "t_pending": 649
+  },
+  "subscriptions": 69968,
+  "subscriptions_matching_order": 69968,
+  "matched_order_status": {
+    "paid": 69967,
+    "pending": 1
+  },
+  "matched_user_equal": 69939,
+  "users_first_paid_nontrial": 19417,
+  "users_prior_paid_trial": 12431,
+  "users_no_prior_paid_trial": 6986,
+  "failed_orders": 51478,
+  "failed_followed_by_paid_7d": 18567
+}
